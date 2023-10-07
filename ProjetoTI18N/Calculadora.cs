@@ -59,6 +59,16 @@ namespace ProjetoTI18N
             }
         }//Fim do Dividir
 
+        public double Potencia()
+        {
+            return Math.Pow(ConsultarNum1, ConsultarNum2);
+        }//Fim do Potencia
+
+        public double Raiz()
+        {
+            return Math.Sqrt(ConsultarNum1);
+        }//Fim da Raiz
+
 
     }//Fim da classe
 }//Fim do Projeto
